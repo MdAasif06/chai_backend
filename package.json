@@ -1,0 +1,16 @@
+{
+  "name": "chai_backend1",
+  "version": "1.0.0",
+  "description": "A backend chai and code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascripts",
+    "backend",
+    "chai"
+  ],
+  "author": "md aasif",
+  "license": "ISC"
+}
