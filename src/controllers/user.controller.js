@@ -20,8 +20,8 @@ const registerUser = asynchandler(async (req, res) => {
     }
 
     // check if already exits
-    const existedUser = User.findOne({
-        $or: [{ username }, { email }]
+    const existedUser =await User.findOne({
+        $or:[{ username},{email}]
     })
     if (existedUser) {
         throw new ApiError(409, "user with email or username")
